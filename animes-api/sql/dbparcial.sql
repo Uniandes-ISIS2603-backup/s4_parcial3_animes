@@ -1,11 +1,10 @@
-delete from ClienteEntity;
+delete from AnimeEntity;
  
-insert into ClienteEntity (id, name,address,city) values (100,'Macrol Diaz', 
-'Diag 10 1-30', 'Bogotá');
-insert into ClienteEntity (id, empresa,  image, aniocreacion, ciudad) values (200,'Pedro Paramo', 
-'Calle 45 20-30', 'Cali');
-insert into ClienteEntity (id, empresa,  image, aniocreacion, ciudad) values (300,'Pablo Picasso', 
-'Av 7 20-30',
-'Medellin');
-insert into ClienteEntity (id, empresa,  image, aniocreacion, ciudad) values (400,'Juan Guerra', 
-'Calle 100 20-30', 'Cartagena');
+insert into AnimeEntity (id, name, seasons,epBySeason,text) values (100,'Naruto', 
+'16', '25', 'La historia de un ninja');
+insert into AnimeEntity (id, name, seasons,epBySeason,text) values (200,'One piece', 
+'22', '25','La historia de un pirata');
+insert into AnimeEntity (id, name, seasons,epBySeason,text) values (300,'Dragon ball', 
+'10','20','La historia de un hombre que solo le gusta pelear');
+insert into AnimeEntity (id, name, seasons,epBySeason,text) values (400,'Pokemon', 
+'9', '18','La historia de una mascota que nunca crece');
